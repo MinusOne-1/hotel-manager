@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Add hotel</string>
+   <string>Add Nomer</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="gridLayoutWidget">
@@ -37,7 +37,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Кол-во этажей:</string>
+        <string>Кол-во комнат:</string>
        </property>
       </widget>
      </item>
@@ -54,7 +54,7 @@
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QLineEdit" name="floors">
+      <widget class="QLineEdit" name="rooms_2">
        <property name="font">
         <font>
          <pointsize>13</pointsize>
@@ -70,12 +70,12 @@
         </font>
        </property>
        <property name="text">
-        <string>Кол-во номеров:</string>
+        <string>Площадь:</string>
        </property>
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QLineEdit" name="rooms">
+      <widget class="QLineEdit" name="sqrt">
        <property name="font">
         <font>
          <pointsize>13</pointsize>
@@ -91,34 +91,6 @@
         </font>
        </property>
       </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QLabel" name="label_4">
-       <property name="font">
-        <font>
-         <pointsize>13</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>Адресс(страна/город/улица/дом):</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="1">
-      <layout class="QVBoxLayout" name="verticalLayout">
-       <item>
-        <widget class="QLineEdit" name="country"/>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="city"/>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="street"/>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="house"/>
-       </item>
-      </layout>
      </item>
     </layout>
    </widget>

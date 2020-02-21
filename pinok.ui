@@ -103,7 +103,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Номер гостиницы:</string>
+        <string>Номер в гостинице:</string>
        </property>
       </widget>
      </item>

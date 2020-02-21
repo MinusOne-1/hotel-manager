@@ -19,7 +19,7 @@
      <rect>
       <x>620</x>
       <y>30</y>
-      <width>411</width>
+      <width>401</width>
       <height>91</height>
      </rect>
     </property>
@@ -45,7 +45,7 @@
    <widget class="QPushButton" name="exit">
     <property name="geometry">
      <rect>
-      <x>1000</x>
+      <x>994</x>
       <y>510</y>
       <width>111</width>
       <height>51</height>
@@ -63,10 +63,10 @@
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>120</y>
-      <width>281</width>
-      <height>121</height>
+      <x>710</x>
+      <y>129</y>
+      <width>209</width>
+      <height>110</height>
      </rect>
     </property>
     <property name="font">
@@ -125,7 +125,7 @@
       <x>650</x>
       <y>320</y>
       <width>331</width>
-      <height>211</height>
+      <height>241</height>
      </rect>
     </property>
     <property name="font">
@@ -173,6 +173,14 @@
      </item>
      <item>
       <widget class="QPushButton" name="givehome">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
        <property name="text">
         <string>Заселить постояльца</string>
        </property>
@@ -180,6 +188,14 @@
      </item>
      <item>
       <widget class="QPushButton" name="takehome">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
        <property name="text">
         <string>Выселить постояльца</string>
        </property>
@@ -192,7 +208,7 @@
      <rect>
       <x>620</x>
       <y>250</y>
-      <width>411</width>
+      <width>401</width>
       <height>71</height>
      </rect>
     </property>
